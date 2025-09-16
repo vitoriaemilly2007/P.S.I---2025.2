@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Tabela de Funcionários</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #eef2f5;
+      padding: 40px;
+    }
+
+    h2 {
+      text-align: center;
+      color: #333;
+    }
+
+    table {
+      width: 60%;
+      margin: 0 auto;
+      border-collapse: collapse;
+      background-color: #fff;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    th, td {
+      padding: 12px 16px;
+      text-align: center;
+      border: 1px solid #ccc;
+    }
+
+    th {
+      background-color: #2e86de;
+      color: white;
+    }
+
+    tr:hover {
+      background-color: #f1f1f1;
+    }
+
+    tfoot td {
+      font-weight: bold;
+      background-color: #f0f0f0;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Funcionários por Departamento</h2>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Departamento</th>
+        <th>Número de Funcionários</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Recursos Humanos</td>
+        <td>8</td>
+      </tr>
+      <tr>
+        <td>Financeiro</td>
+        <td>12</td>
+      </tr>
+      <tr>
+        <td>TI</td>
+        <td>15</td>
+      </tr>
+      <tr>
+        <td>Marketing</td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <td>Logística</td>
+        <td>6</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td>Total</td>
+        <td>51</td>
+      </tr>
+    </tfoot>
+  </table>
+
+</body>
+</html>

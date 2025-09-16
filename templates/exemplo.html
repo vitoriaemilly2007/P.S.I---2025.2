@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Tabela de Alimentos</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f8f8;
+      padding: 40px;
+    }
+
+    h2 {
+      text-align: center;
+      color: #333;
+    }
+
+    table {
+      width: 60%;
+      margin: 0 auto;
+      border-collapse: collapse;
+      background-color: #fff;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 10px 15px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #4CAF50;
+      color: white;
+    }
+
+    tr:hover {
+      background-color: #f1f1f1;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Tabela de Alimentos</h2>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Alimento</th>
+        <th>Categoria</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Arroz</td>
+        <td>Grão</td>
+      </tr>
+      <tr>
+        <td>Maçã</td>
+        <td>Fruta</td>
+      </tr>
+      <tr>
+        <td>Tomate</td>
+        <td>Legume</td>
+      </tr>
+      <tr>
+        <td>Feijão</td>
+        <td>Grão</td>
+      </tr>
+      <tr>
+        <td>Cenoura</td>
+        <td>Legume</td>
+      </tr>
+      <tr>
+        <td>Banana</td>
+        <td>Fruta</td>
+      </tr>
+    </tbody>
+  </table>
+  <a href="{{url_for('exemplo2')}}">exemplo</a>
+
+</body>
+</html>
+

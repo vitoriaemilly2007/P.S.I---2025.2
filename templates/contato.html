@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/estilo.css')}}">
 <body>
+    <img src="{{ url_for('static', filename='img/contato.png') }}" onclick="exibirAlerta()">
+    <script src="{{url_for('static',filename='js/funcos.js')}}"></script>
     <h2>Nome:{{nome}}</h2>
     <h3>{{email}}</h3>
 </body>

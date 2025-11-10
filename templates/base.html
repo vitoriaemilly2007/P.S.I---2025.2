@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>{% block titulo %}Principal{% endblock %}</title>
+</head>
+<body>
+  <header>
+    <h1>Cafeteria  - Demonstração</h1>
+    <nav>
+      <a href="/">Início</a>
+      <a href="/sobre">Menu</a>
+      <a href="/contatos">Contatos</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="card">
+      {% block conteudo %}{% endblock %}
+    </div>
+  </main>
+
+  <footer>© 2025 - IFRN</footer>
+</body>
+</html>

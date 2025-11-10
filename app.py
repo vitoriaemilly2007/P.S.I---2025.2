@@ -45,5 +45,10 @@ def recebedados():
     telefone = request.form.get('telefone')
     return "{} - {}".format(nome, telefone)
 
+@app.route('/cafeteria')
+def cafeteria():
+    return render_template('index.html')
+
+
 if __name__== '__main__':
     app.run()
